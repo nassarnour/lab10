@@ -53,7 +53,7 @@ public class testSelectionSort {
 		 arr = arr1.basicSelectionSort(arr);
 		 assertArrayEquals(Sortedarr, arr);
 	 }
- }
+
     public void testPositive(){
        int[] arr = new int[5];
        arr[0] = 8;
@@ -95,3 +95,4 @@ public class testSelectionSort {
        arr = arr1.basicSelectionSort(arr);
        assertArrayEquals(Sortedarr, arr);    }
 
+		 }
